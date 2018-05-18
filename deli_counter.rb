@@ -19,7 +19,8 @@ end
 
 
 def take_a_number(people, name)
-  
+  people << name 
+  people 
 end 
 
 
