@@ -10,7 +10,7 @@ def line(people)
     
     people.each do |person|
       count += 1
-      display_names = display_names + "#{count}. #{person}"
+      display_names = display_names + "#{count}. #{person} "
     end 
     puts "The line is currently: #{display_names}"
   end 
