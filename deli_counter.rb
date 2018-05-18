@@ -20,7 +20,7 @@ end
 
 def take_a_number(people, name)
   people << name 
-  people 
+  puts "Welcome, #{name}. You are currently number #{people.count} in line."
 end 
 
 
