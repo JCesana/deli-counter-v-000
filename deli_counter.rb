@@ -4,10 +4,15 @@ katz_deli = []
 def line(people)
   if people.count == 0 
     puts "The line is currently empty."
-  else 
+  else
+    count = 0
+    display_names = ""
+    
     people.each do |person|
-      
+      count += 1
+      display_names = display_names + "#{count}. #{person}"
     end 
+    puts "The line is currently: #{display_names}"
   end 
 end 
 
