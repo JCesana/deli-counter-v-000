@@ -27,5 +27,6 @@ end
 def now_serving(people)
   if people.count == 0 
     puts "There is nobody waiting to be served!"
+  else people.shift
   end 
 end 
