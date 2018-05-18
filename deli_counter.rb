@@ -4,6 +4,10 @@ katz_deli = []
 def line(people)
   if people.count == 0 
     puts "The line is currently empty."
+  else 
+    people.each do |person|
+      
+    end 
   end 
 end 
 
