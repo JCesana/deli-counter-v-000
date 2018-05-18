@@ -2,7 +2,7 @@
 katz_deli = [] 
 
 def line(people)
-  puts 
+  if people.count == 0 { puts "The line is currently empty." }
 end 
 
 
